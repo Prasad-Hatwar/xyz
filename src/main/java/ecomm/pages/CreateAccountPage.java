@@ -20,7 +20,7 @@ public class CreateAccountPage extends baseclass {
 	@FindBy(id = "lastname") WebElement lastName;
 	@FindBy(id="email_address") WebElement emailAddress;
 	@FindBy(id="password") WebElement password;
-	@FindBy(id="password-confirmation")WebElement passwordConfirm;
+	@FindBy(id="password-confirmation")WebElement passwordConfirm ;
 	
 	@FindBy(xpath = "(//span[text()='Create an Account'])[3]")WebElement btnCrateAccount;
 	
